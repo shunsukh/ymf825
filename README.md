@@ -22,5 +22,15 @@ so that it works on ESP32 platform.
 
 [YMF825ボード](https://yamaha-webmusic.github.io/ymf825board/intro/)がESP32で動くように[YAMAHA公式サンプルコード](https://github.com/yamaha-webmusic/ymf825board)を少し修正したものです。
 
+ymf825basic_esp32
 [YMF825 board](https://yamaha-webmusic.github.io/ymf825board/intro/) sample code for ESP32 platform. (VSPI is used for communication.) This code is derived from [YAMAHA official sample](https://github.com/yamaha-webmusic/ymf825board).
+
+ymf825basic_esp32
+ ESP32で動作させるサンプル
+ymf825basic_RPi
+ RaspberyPi+ブリッジボード1+YMF825無改造で動作させるPythonサンプルコード
+ymf825_bridge1
+ ブリッジボード1。YMF825無改造(2電源モード)と3.3V GPIOを接続するブリッジボード。
+ymf825_bridge2
+ ブリッジボード2。YMF825無改造(2電源モード)と3.3V GPIOを接続するブリッジボード。ステレオ版
 
